@@ -1,0 +1,6 @@
+{
+  "name": "CampusConnect",
+  "description": "Smart Campus Management System with role-based dashboards for Students, Faculty, and Admins, intelligent AI Campus Assistant, real-time attendance, analytics, assignments, and timetable.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
