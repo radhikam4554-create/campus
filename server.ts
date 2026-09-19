@@ -13,7 +13,7 @@ import { getDb } from './server/db/index.js';
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = Number(process.env.PORT) || 3000;
 
   // Initialize and seed database if not already done
   getDb();
